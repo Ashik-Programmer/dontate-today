@@ -148,6 +148,10 @@ section {
     padding: 60px 24px;
 }
 
+.donate h3 {
+    margin: 30px 0 16px 0;
+}
+
 .depend-donation {
     display: flex;
     align-items: center;
@@ -240,7 +244,7 @@ footer p {
 
 .our-all-partners {
     margin-top: 40px;
-    margin-bottom: -50px;
+    margin-bottom: 35px;
 }
 
 .our-partners {
@@ -249,13 +253,6 @@ footer p {
     justify-content: center;
 }
 
-/* .partners {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
-    width: 150px;
-    height: 150px;
-} */
 .partners img {
     width: 150px;
     margin-left: 35px;
