@@ -4,9 +4,16 @@
 }
 
 /* 
-    font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif;
- */
+    font-family: 'Inter',
+    sans-serif;
+    font-family: 'Lobster',
+    cursive;
+    font-family: 'Manrope',
+    sans-serif;
+    font-family: 'Poppins',
+    sans-serif; 
+*/
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -203,4 +210,30 @@ section {
     outline: none;
     color: #FFFFFF;
     padding: 0 30px;
+    cursor: pointer;
+}
+
+footer {
+    background: #0B0D17;
+    text-align: center;
+    padding: 43px 0;
+}
+
+footer h1 {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+}
+
+footer p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
 }
