@@ -11,6 +11,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section {
+    margin-bottom: 130px;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 
 .header-part {
     background-image: url(images/header.png);
@@ -34,7 +43,7 @@ body {
 
 .header p {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 28px;
     text-align: center;
     margin-bottom: 50px;
@@ -43,10 +52,75 @@ body {
 .link-button {
     background: #FF5959;
     border-radius: 5px;
-    padding: 20px 40px;
+    padding: 17px 30px;
     font-family: 'Inter';
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.donate-today {
+    text-align: center;
+}
+
+.donate-today h2 {
+    font-size: 45px;
+    font-family: 'Inter';
+    color: #121212;
+}
+
+.donate-today p {
+    font-size: 15px;
+    color: #707070;
+}
+
+.donate-price {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.price {
+    margin-left: 22px;
+    width: 136px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    line-height: 130px;
+}
+
+.price h3 {
+    font-size: 30px;
+    color: #707070;
+    font-family: 'Inter';
+}
+
+.active {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.donate-form input {
+    width: 775px;
+    border-bottom: 1px solid #DADADA;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    text-align: center;
+    padding-bottom: 10px;
+    ;
+    margin-top: 30px;
+}
+
+.donate-form input ::placeholder {
+    color: #DADADA;
+    ;
+}
+
+.donate-form button {
+    outline: none;
+    border: none;
+    margin-top: 25px;
 }
